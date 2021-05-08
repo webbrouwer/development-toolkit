@@ -1,0 +1,132 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+	font-size: 112.5%;
+    line-height: 1.5;
+}
+
+ul, ol {
+    margin: 0 0 1.5625em 2em;
+    padding: 0;
+}
+
+hr {
+	border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 2em auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 75%;	
+}
+
+.container {
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 38em;
+    width: 88%;
+}
+
+.container-large {
+    max-width: 60em;
+}
+
+.margin-bottom-large {
+    margin-bottom: 2em;
+}
+
+.margin-bottom-small {
+    margin-bottom: .5em;
+}
+
+.nav-wrap {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+@media (min-width: 60em) {
+	.nav-wrap {
+	    display: flex;
+	    justify-content: space-between;
+	}
+}
+
+.nav {
+	margin-bottom: 0;
+}
+
+.list-inline, 
+.nav, 
+.list-unstyled {
+    list-style: none;
+    margin-left: 0;
+}
+
+.list-inline > li, 
+.nav > li {
+    display: inline-block;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: .3125em;
+    text-decoration: none;
+}
+
+
+h1, .h1 {
+    font-size: 1.5em;
+    padding-top: .5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: 0 0 1em;
+    padding: 1em 0 0;
+    word-wrap: break-word;
+}
+
+.text-large, 
+.text-xlarge {
+    font-size: 1.1875em;
+    line-height: 1.4; 
+}
+
+.text-xlarge {
+    font-size: 1.7em;
+}
+
+pre code {
+	font-size: 1.1em;
+}
+
+@media (min-width: 38em) {
+	.text-xlarge {
+	    font-size: 2em;
+	}
+}
+
+.highlight {
+	background-color: #efefef;
+}
+
+pre {
+	background-color: #f7f7f7;
+    display: block;
+    line-height: 1.5;
+    margin: 0 0 1.5625em;
+    overflow: auto;
+    padding: .8125em;
+    tab-size: 2;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
