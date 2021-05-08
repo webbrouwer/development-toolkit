@@ -4,7 +4,7 @@ A personal website with development tools, tips, tricks and snippets to get it g
 
 ## Todo
 
--[x] create templates: home, category-overview, single post
--[ ] code block highlight
--[ ] eleventy
--[ ] easy development, create content and deploy cycle
+- [x] create templates: home, category-overview, single post
+- [ ] code block highlight
+- [ ] eleventy
+- [ ] easy development, create content and deploy cycle
