@@ -1,7 +1,7 @@
 ---
 title: 'document.querySelectorAll()'
 pageIntro: 'Get all elements with a given selector.'
-shortDescription: 'Find all matching elements on a page'
+shortDescription: 'Find all matching elements on a page.'
 tags: 'selectors'
 layout: 'layouts/topic.html'
 ---
