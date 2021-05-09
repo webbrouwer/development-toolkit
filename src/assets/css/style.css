@@ -3,8 +3,11 @@
 }
 
 body {
+    opacity: 1;
+    font-family: Arial, sans-serif;
 	font-size: 112.5%;
     line-height: 1.5;
+    background-color: #f1f1ef;
 }
 
 ul, ol {
@@ -88,11 +91,31 @@ h1, .h1 {
     padding-top: .5em;
 }
 
+h2, .h2 {
+    font-size: 1.3125em;
+    padding-top: 1.3125em;
+}
+
+h3, .h3 {
+    font-size: 1.1875em;
+    padding-top: 1.1875em;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     margin: 0 0 1em;
     padding: 1em 0 0;
     word-wrap: break-word;
+}
+
+p {
+    margin: 0 0 1.5625em;
 }
 
 .text-large, 
@@ -110,6 +133,10 @@ pre code {
 }
 
 @media (min-width: 38em) {
+    h1, .h1 {
+        font-size: 1.75em;
+    }
+
 	.text-xlarge {
 	    font-size: 2em;
 	}

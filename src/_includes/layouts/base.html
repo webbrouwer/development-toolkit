@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Toolkit</title>
+
+    <style>
+        body {
+            opacity: 0;
+            transition-duration: 133.7ms;
+            transition-timing-function: ease-in-out;
+        }
+    </style>    
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
+</head>
+<body>
+
+    {% include "partials/header.html" %}
+
+    <main id="main" tabindex="-1">
+        <div class="container">
+            <article>
+                <h1 class="text-xlarge margin-bottom-small">Development Toolkit</h1>
+
+                <p class="text-large">A personal website with development tools, tips, tricks and snippets to get it going. The topics of this website are HTML & CSS, JavaScript, PHP, WordPress, Eleventy and development on a local Macbook server.</p>
+            </article>
+            
+        </div>
+    </main>
+
+    {% include "partials/footer.html" %}
+
+</body>
+</html>

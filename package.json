@@ -1,0 +1,24 @@
+{
+  "name": "development-toolkit",
+  "version": "1.0.0",
+  "description": "A personal website with development tools, tips, tricks and snippets to get it going.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx eleventy --serve",
+    "watch": "npx eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbrouwer/development-toolkit.git"
+  },
+  "author": "webbrouwer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbrouwer/development-toolkit/issues"
+  },
+  "homepage": "https://github.com/webbrouwer/development-toolkit#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.2.0"
+  }
+}
