@@ -2,6 +2,8 @@
 title: 'DDEV-Local'
 pageIntro: 'An open source tool that can run all your projects at once with custom configurations.'
 shortDescription: 'An open source tool that can run all your projects at once with custom configurations.'
+metaTitle: ''
+metaDesc: ''
 tags: 'tools'
 layout: 'layouts/topic.html'
 ---

@@ -35,5 +35,5 @@ npm run serve
 - [x] eleventy
 - [x] add valuable content with tips and tricks
 - [x] add menu and link styling
-- [ ] add meta descriptions
+- [x] add meta descriptions
 - [ ] easy development, create content and deploy cycle

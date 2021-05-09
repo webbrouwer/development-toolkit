@@ -2,6 +2,8 @@
 title: 'Snappy page load'
 pageIntro: 'CSS trick to load pages smooth.'
 shortDescription: 'CSS trick to load pages smooth.'
+metaTitle: ''
+metaDesc: ''
 tags: 'animation'
 layout: 'layouts/topic.html'
 ---

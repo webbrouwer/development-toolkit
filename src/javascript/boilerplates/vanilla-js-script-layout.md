@@ -2,6 +2,8 @@
 title: 'Vanilla JS Script Layout'
 pageIntro: 'A basic, good to go Vanilla JS script template to use in daily web development. Easy to use and keeps your script clean.'
 shortDescription: 'A basic, good to go Vanilla JS script template.'
+metaTitle: ''
+metaDesc: ''
 tags: 'boilerplates'
 layout: 'layouts/topic.html'
 ---

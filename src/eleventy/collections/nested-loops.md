@@ -2,6 +2,8 @@
 title: 'Nested Loops'
 pageIntro: 'Display nested loops to render multiple collections and levels. Topics and sub-topics.'
 shortDescription: 'Display nested loops to render multiple collections.'
+metaTitle: ''
+metaDesc: ''
 tags: 'collections'
 layout: 'layouts/topic.html'
 ---
