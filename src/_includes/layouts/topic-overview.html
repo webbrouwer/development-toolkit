@@ -12,26 +12,27 @@
 					<h2 class="h5">Categories</h2>
 
 					<ul>
-						<!-- TODO: table of contents -->
-						<li><a href="#Libraries">Libraries</a></li>
-						<li><a href="#Selectors">Selectors</a></li>
-					</ul>					
+					{% for item in collections[ collection ] %}	
+						<li><a href="#{{ item.data.title }}">{{ item.data.title }}</a></li>
+					{% endfor %}					
+					</ul>
+				
 				</div>
-			</article>
+			</article>		
 
-			<!-- TODO: collection of sub-topics -->
-			<h2 id="Libraries">Libraries</h2>
+			{% for item in collections[ collection ] %}	
 
+			<h2 id="{{ item.data.title }}">{{ item.data.title }}</h2>
+			
 			<ul>
-				<li><a href="https://jquery.com/">jQuery</a> - Makes things like HTML document traversal and manipulation, event handling, animation, and Ajax simpler.</li>
+			{% for item in collections[ item.data.collection ] %}
+				<li>
+					<a href="{{ item.url }}">{{ item.data.title }}</a> - {{ item.data.shortDescription }}.
+				</li>
+			{% endfor %}
 			</ul>				
 
-			<h2 id="Selectors">Selectors</h2>
-
-			<ul>
-				<li><a href="./document-queryselectorall/index.html">document.querySelectorAll()</a> - Find all matching elements on a page.</li>
-			</ul>			
-			
+			{% endfor %}
 		</div>
 
 {% endblock %}

@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
 	// Add syntaxHighlight plugin
 	eleventyConfig.addPlugin(syntaxHighlight);	
 
+	// Add style.css
 	eleventyConfig.addPassthroughCopy('./src/assets/css/style.css');
 
 	// Make 11ty watch dist and start template engine
