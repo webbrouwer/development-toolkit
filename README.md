@@ -2,6 +2,32 @@
 
 A personal website with development tools, tips, tricks and snippets to get it going.
 
+## Get started
+
+### 1. Clone this Repository
+
+```
+git clone 'url'
+```
+
+### 2. Navigate to the directory
+
+```
+cd development-toolkit
+```
+
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 5. Run and serve Eleventy
+
+```
+npm run serve
+```
+
 ## Todo
 
 - [x] create templates: home, category-overview, single post
