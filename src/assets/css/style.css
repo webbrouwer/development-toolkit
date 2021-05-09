@@ -141,19 +141,3 @@ pre code {
 	    font-size: 2em;
 	}
 }
-
-.highlight {
-	background-color: #efefef;
-}
-
-pre {
-	background-color: #f7f7f7;
-    display: block;
-    line-height: 1.5;
-    margin: 0 0 1.5625em;
-    overflow: auto;
-    padding: .8125em;
-    tab-size: 2;
-    white-space: pre-wrap;
-    word-break: break-all;
-}

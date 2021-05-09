@@ -1,0 +1,37 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+		<div class="container">
+			<article>
+				<h1>{{ title }}</h1>
+
+				<p>{{ pageIntro }}</p>
+
+				<div>
+					<h2 class="h5">Categories</h2>
+
+					<ul>
+						<!-- TODO: table of contents -->
+						<li><a href="#Libraries">Libraries</a></li>
+						<li><a href="#Selectors">Selectors</a></li>
+					</ul>					
+				</div>
+			</article>
+
+			<!-- TODO: collection of sub-topics -->
+			<h2 id="Libraries">Libraries</h2>
+
+			<ul>
+				<li><a href="https://jquery.com/">jQuery</a> - Makes things like HTML document traversal and manipulation, event handling, animation, and Ajax simpler.</li>
+			</ul>				
+
+			<h2 id="Selectors">Selectors</h2>
+
+			<ul>
+				<li><a href="./document-queryselectorall/index.html">document.querySelectorAll()</a> - Find all matching elements on a page.</li>
+			</ul>			
+			
+		</div>
+
+{% endblock %}

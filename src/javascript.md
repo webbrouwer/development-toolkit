@@ -1,4 +1,8 @@
 ---
 title: 'JavaScript'
-layout: 'layouts/base.html'
+pageIntro: 'A collection of JavaScript topics, tips and tricks to use in daily web development.'
+eleventyNavigation:
+  key: JavaScript
+  order: 1  
+layout: 'layouts/topic-overview.html'
 ---

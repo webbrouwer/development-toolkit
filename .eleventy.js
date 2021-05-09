@@ -1,10 +1,13 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
 	
 	// Add navigation plugin
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);	
+
+	// Add syntaxHighlight plugin
+	eleventyConfig.addPlugin(syntaxHighlight);	
 
 	eleventyConfig.addPassthroughCopy('./src/assets/css/style.css');
 

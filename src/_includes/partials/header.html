@@ -5,14 +5,16 @@
             </a>
 
             <div class="nav-menu">
+
+                {% set navPages = collections.all | eleventyNavigation %}
                 <ul class="nav">
-                    <li>HTML & CSS</li>
-                    <li><a href="javascript/index.html">JavaScript</a></li>
-                    <li>PHP</li>
-                    <li>WordPress</li>
-                    <li>Eleventy</li>                   
-                    <li>Local server</li>
-                </ul>               
+                {%- for entry in navPages %}
+                  <li{% if entry.url == page.url %} class="active"{% endif %}>
+                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>                
+             
             </div>
         </nav>
     </header>
