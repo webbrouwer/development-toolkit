@@ -12,6 +12,9 @@ module.exports = function (eleventyConfig) {
 	// Add style.css
 	eleventyConfig.addPassthroughCopy('./src/assets/css/style.css');
 
+	// Add favicon
+	eleventyConfig.addPassthroughCopy('src/assets/favicon/*');
+
 	// Make 11ty watch dist and start template engine
 	return {
 	    htmlTemplateEngine: 'njk',		
