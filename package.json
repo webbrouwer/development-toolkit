@@ -4,6 +4,7 @@
   "description": "A personal website with development tools, tips, tricks and snippets to get it going.",
   "main": "index.js",
   "scripts": {
+    "build": "npx eleventy build",
     "serve": "npx eleventy --serve",
     "watch": "npx eleventy --watch"
   },

@@ -8,6 +8,7 @@ tags: 'selectors'
 layout: 'layouts/topic.html'
 ---
 
+
 ``` js
 // Get all elements with the .bg-red class
 var elemsRed = document.querySelectorAll('.bg-red');

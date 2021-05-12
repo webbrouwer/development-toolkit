@@ -33,7 +33,7 @@ npm run serve
 - [x] create templates: home, category-overview, single post
 - [x] code block highlight
 - [x] eleventy
-- [x] add valuable content with tips and tricks
 - [x] add menu and link styling
 - [x] add meta descriptions
-- [ ] easy development, create content and deploy cycle
+- [x] easy development, create content and deploy cycle
+- [ ] add more valuable content with tips and tricks

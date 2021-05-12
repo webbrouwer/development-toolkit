@@ -1,5 +1,5 @@
 ---
 title: 'Tools'
 collection: 'tools'
-tags: 'local-development/'
+tags: 'local-development'
 ---
