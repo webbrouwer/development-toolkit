@@ -84,6 +84,7 @@ footer {
 
 .nav a:hover,
 .nav .active a {
+    text-decoration: none;
     border-bottom: .125em solid #c19434;
 }
 
@@ -131,6 +132,14 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 0 0 1.5625em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .text-large, 
